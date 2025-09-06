@@ -39,5 +39,5 @@ app.message('hello', async ({ message, say }) => {
 // Start your app
 (async () => {
   await app.start(process.env.PORT || 3000);
-  console.log('⚡️ Hi Bot with OpenAI is running!');
+  console.log('⚡️ Hi Bot with OpenAI is running! - Ab maze karo');
 })();
