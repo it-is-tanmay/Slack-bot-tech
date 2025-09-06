@@ -1,0 +1,21 @@
+{
+    "name": "tech_updates",
+    "version": "1.0.0",
+    "description": "A simple Slack bot that says hi",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "dependencies": {
+      "@slack/bolt": "^3.17.0",
+      "dotenv": "^16.4.5",
+      "openai": "^4.28.4"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.0"
+    },
+    "keywords": ["slack", "bot", "nodejs"],
+    "author": "Tanmay",
+    "license": "MIT"
+  }
